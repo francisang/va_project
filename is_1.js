@@ -215,7 +215,7 @@ chart
         .group(volumeByMonthGroup)
         .centerBar(true)
         .gap(1)
-        .x(d3.time.scale().domain([new Date(2009, 12), new Date(2013, 8)]))
+        .x(d3.time.scale().domain([new Date(2010, 12), new Date(2013, 8)]))
         .round(d3.time.month.round)
 		.brushOn(true)
 		.elasticY(true)
